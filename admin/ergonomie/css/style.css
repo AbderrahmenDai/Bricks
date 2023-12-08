@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    background-color: #a9e2e7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+/****** ARTICLE ********/
+article {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article section {
+    background-color: #ecf0f1;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #7f8f8d;
+}
+article section:hover {
+    box-shadow: 3px 3px 3px #7f8f8d;
+}
+article h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px dashed #7f8f8d;
+    padding-bottom: 15px;
+}
+article input {
+    display: block;
+    padding: 12px;
+    width: 75%;
+    box-sizing: border-box;
+    outline: none;
+    margin: 15px auto;
+}
+article input[type="text"] {
+    border: 1px solid #ccc;
+}
+article input[type="text"]:hover {
+    border-color: #e67e22;
+}
+
+article input[type="submit"] {
+    cursor: pointer;
+    background-color: #f1c40f;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+article input[type="submit"]:hover {
+    background-color: #e67e22;
+}
+article ::placeholder {
+    color: #7f8f8d;
+    letter-spacing: 1px;
+}
+article p {
+    text-align: center;
+}
+/****** ARTICLE ********/
+/**************/
+
+
+/****** DOWNLOAD ********/
+#download {
+    display: flex;
+    justify-content: center;
+}
+#download input {
+    display: none;
+}
+#download label div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download label div:hover {
+    background-color: #e67e22;
+}
+#download label div i {
+    font-size: 1.8em;
+    color: #fff;
+}
+/****** DOWNLOAD ********/
+/**************/
+
+
+/****** CLASSES GENERIQUES ********/
+.error, .success {
+    padding: 15px;
+    color:#f1c40f;
+    background-color: #e74c3c;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.success {
+    background-color: #27ae60;
+}
+/****** CLASSES GENERIQUES ********/
+/**************/
